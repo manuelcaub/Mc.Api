@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mc.Api.GraphQL", "Mc.Api.GraphQL\Mc.Api.GraphQL.csproj", "{D2A0FDCA-5BF1-41B2-B878-24B3DDC48740}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mc.Api.GraphQL", "Mc.Api.GraphQL\Mc.Api.GraphQL.csproj", "{D2A0FDCA-5BF1-41B2-B878-24B3DDC48740}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mc.Api.GraphQL.Core", "Mc.Api.GraphQL.Core\Mc.Api.GraphQL.Core.csproj", "{691F3964-1FC8-4D28-AB14-222BC34A09DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D2A0FDCA-5BF1-41B2-B878-24B3DDC48740}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2A0FDCA-5BF1-41B2-B878-24B3DDC48740}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2A0FDCA-5BF1-41B2-B878-24B3DDC48740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691F3964-1FC8-4D28-AB14-222BC34A09DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691F3964-1FC8-4D28-AB14-222BC34A09DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691F3964-1FC8-4D28-AB14-222BC34A09DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691F3964-1FC8-4D28-AB14-222BC34A09DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

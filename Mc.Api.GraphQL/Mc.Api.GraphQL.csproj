@@ -3,18 +3,32 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <UserSecretsId>aspnet-Mc.Api.GraphQL-5D0FC5C1-E50E-4F83-9E25-597DE6A8813E</UserSecretsId>
+    <AssemblyName>Mc.Api.GraphQL</AssemblyName>
+    <RootNamespace>Mc.Api</RootNamespace>
+	<CodeAnalysisRuleSet>..\mc.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
-
+  
+  <ItemGroup>
+    <AdditionalFiles Include="..\stylecop.json" />
+  </ItemGroup>
+  
   <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0-preview2-final" />
+    <PackageReference Include="GraphQL" Version="0.17.2" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.0.0" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.0.2" />
   </ItemGroup>
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0-preview2-final" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mc.Api.GraphQL.Core\Mc.Api.GraphQL.Core.csproj" />
   </ItemGroup>
 
 </Project>
